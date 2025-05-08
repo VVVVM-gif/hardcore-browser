@@ -20,7 +20,7 @@ jobs:
           echo "linux=@rany2 @clickot @emilylange" >> $GITHUB_OUTPUT
           echo "windows=" >> $GITHUB_OUTPUT
           echo "macos=" >> $GITHUB_OUTPUT
-      - name: Get the latest Chromium version
+      - name: Get the latest Hardcore Browser version
         id: latest-version
         run: |
           set -eo pipefail
